@@ -1,0 +1,122 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.sign{
+	box-sizing: border-box;
+	position: absolute;
+	top: 30%;
+	left:30%;
+	width: 40%;
+	height:40%;
+	background:#fff ;
+	box-shadow: 0 0 10px #ccc;
+	padding: 150px;
+	padding-top: 80px;
+	z-index: 11;
+}
+.signBj{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	height: 100%;
+	background: url(../../../img/11.jpg) no-repeat;
+	background-size: cover;
+}
+.sign button{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.sign input{
+	height: 40px;
+	line-height: 40px;
+}
+.footer{
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background: #000;
+	color: #ffffff;
+	bottom: 0;
+	left: 0;
+	border: none!important;
+	z-index: 999999;
+}
+
+/*头部*/
+.header{
+    height: 40px;
+    line-height: 40px;
+    background: #666;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.out{
+	cursor: pointer;
+	float: right;
+}
+.out:hover{
+	color: #f00;
+}
+.silde{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 100%;
+	background: #000000;
+	width: 10%;
+}
+.ant-menu-vertical .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title{
+	padding-right: 30px!important;
+}
+
+.content{
+	position: absolute;
+	background: #ccc;
+	height:calc(100%);
+	height:-webkit-calc(100%);
+	height:-moz-calc(100%);
+	width: 100%;
+}
+.sildeBtn{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #ffffff;
+	text-align: right;
+	font-size: 24px;
+	cursor: pointer;
+}
+.main{
+	width: 90%;
+	position: absolute;
+	left: 10%;
+	top: 0;
+	font-size: 14px;
+	height: 91%;
+	background: #ccc;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+	background-color: #ffffff!important;
+	color: #00A854;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected:hover{
+	color: #00A854;
+}
+/*主体区域内容*/
+.contentMain{
+	width: 100%;
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: 0 0 5px #ccc;
+	color: #666;
+}

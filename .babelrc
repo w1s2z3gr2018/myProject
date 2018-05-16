@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "module-alias",
+      [
+        {
+          "src": "./js/admin/main/html/test_alias/test",
+          "expose": "test"
+        }
+      ]
+    ]
+  ]
+}
